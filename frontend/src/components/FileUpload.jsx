@@ -19,7 +19,7 @@ export default function FileUpload() {
     formData.append('file', file)
 
     try {
-      const response = await fetch(`http://localhost:5000/api/voice/upload`, {
+      const response = await fetch(`https://voice-transform-app.onrender.com/api/voice/upload`, {
         method: 'POST',
         body: formData,
       })

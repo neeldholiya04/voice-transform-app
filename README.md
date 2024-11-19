@@ -90,41 +90,6 @@ cd voice-transform-app
 
 ---
 
-## **Deployment**
-
-### **Hosting**
-- **Frontend**: Host on [Netlify](https://www.netlify.com/) or [Vercel](https://vercel.com/).
-- **Backend**: Deploy on [Render](https://render.com/) or [Heroku](https://www.heroku.com/).
-
-### **Steps to Deploy**
-1. **Frontend**:
-   - Build the frontend using:
-     ```bash
-     npm run build
-     ```
-   - Deploy the `build/` folder to your preferred hosting service.
-2. **Backend**:
-   - Deploy the backend directory with your hosting provider, ensuring `.env` variables are configured correctly.
-
----
-
-## **Screenshots**
-### **Home Page**
-- A beautiful, responsive layout for uploading files and generating synthesized voices.
-
-![Home Page](https://via.placeholder.com/800x400)
-
-### **File Upload Section**
-- Intuitive file upload UI with error handling.
-
-![File Upload Section](https://via.placeholder.com/800x400)
-
-### **Generated Audio**
-- Play or download the synthesized audio file.
-
-![Generated Audio](https://via.placeholder.com/800x400)
-
----
 
 ## **Folder Structure**
 ```
@@ -143,37 +108,8 @@ project-root/
 │   ├── src/
 │   │   ├── App.jsx
 │   │   ├── components/
-│   │   ├── styles/
 │   ├── package.json
 ├── README.md
 ```
 
 ---
-
-## **Contributing**
-1. Fork the repository.
-2. Create a new branch for your feature:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Add feature-name"
-   ```
-4. Push to your branch:
-   ```bash
-   git push origin feature-name
-   ```
-5. Open a pull request.
-
----
-
-## **License**
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
-
----
-
-## **Contact**
-- **Developer**: [Your Name](mailto:your.email@example.com)
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
-- **GitHub**: [Your GitHub Profile](https://github.com/your-profile)
